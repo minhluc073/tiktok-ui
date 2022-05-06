@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\dienmay"
+		},
+		{
+			"path": "..\\..\\firstProject"
+		},
+		{
+			"path": "..\\..\\bt_react\\react-webpack"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "react-webpack"
+	}
+}
