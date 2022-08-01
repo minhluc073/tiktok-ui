@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 
@@ -22,6 +23,23 @@ function Button({
     onClick,
     ...passProps
 }) {
+    Button.propTypes = {
+        to: PropTypes.string,
+        href: PropTypes.string,
+        primary: PropTypes.bool,
+        outline: PropTypes.bool,
+        text: PropTypes.bool,
+        rounded: PropTypes.bool,
+        disabled: PropTypes.bool,
+        small: PropTypes.bool,
+        large: PropTypes.bool,
+        ClassName: PropTypes.string,
+        children: PropTypes.node.isRequired,
+        leftIcon: PropTypes.node,
+        rightIcon: PropTypes.node,
+        onClick: PropTypes.func,
+    };
+
     let Comp = 'button'; //mnac đinh la the button
     const props = {
         onClick,
